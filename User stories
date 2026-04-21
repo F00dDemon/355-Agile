@@ -21,10 +21,10 @@ As a visitor I want to be able to find a specific artist and I should be able to
     When they are trying to find a specific artist,
     Then they should be able to see all the artists on a single page that properly displays the catalog.
 
-    Given a visitor navigates to the artist/catalog 
-    When they are trying to find a specific artist 
+    Given a visitor navigates to the artist/catalog,
+    When they are trying to find a specific artist,
     Then they should be able to view the artist on a single page that will automatically view that artist.
 
     Given a visitor navigates to the artist/catalog,
-    When they see the page,
-    then the layout should be in a format that is both aesthetically pleasing, while information dense.
+    When they browse the catalog,
+    then the format of the catalog should be in a card view respective to the screen size.
