@@ -1,30 +1,30 @@
 AS [] I want to [] so that []
 Given, when, then
 
-As a visitor I want to be able to visit a landing page that will give a great idea as to what wavelength records does so that I know who they are and what they offer.
+As a visitor I want to be able to view a landing page that introduces Wavelength Records so that I can understand their history as a Seattle based indie label.
 
     Given a user enters the url for the website,
-    When they enter the website, they should be directed to the landing page.
-    Then they should be able to see a variety of information and announcements related to the website.
+    When the page loads, 
+    Then the user must see the label's name, their location, and their founding year.
 
     Given a user wants to learn more about wavelength records,
-    When they navigate to a header on the website, there should be an about button.
-    Then they should be directed to an about me page that describes wavelength.
+    When they click the about button in the header,
+    Then the page must display a mission statement describing Wavelengths indie roster.
 
     Given a mobile user visits the landing page,
-    When they are shown the landing page,
-    Then elements such as the header, footer and main content are displayed proportionally and they should be able to comfortably navigate the website.
+    When the screen width is 480px or less,
+    Then the header, footer and main content must stack vertically without requiring horizontal scrolling. 
 
-As a visitor I want to be able to find a specific artist and I should be able to find out more information on them if I want to know more, so that I may be able to learn about them.
+As a visitor I want to be able to find a specific artist and view their details so that I can see their genre and discography. 
 
     Given a mobile user navigates to the artists catalog,
-    When they are trying to find a specific artist,
-    Then they should be able to see all the artists on a single page that properly displays the catalog.
+    When the page loads,
+    Then the user must see exactly five distinct artist profiles displayed in a grid or list. 
+
+    Given a visitor is viewing the catalog,
+    When they select a specific artist,
+    Then they should be able to view the artists name, genre, a short biography and a list of their released albums. 
 
     Given a visitor navigates to the artist/catalog,
-    When they are trying to find a specific artist,
-    Then they should be able to view the artist on a single page that will automatically view that artist.
-
-    Given a visitor navigates to the artist/catalog,
-    When they browse the catalog,
-    then the format of the catalog should be in a card view respective to the screen size.
+    When they view the artists,
+    Then the layout must display the artists name and genre clearly over or under the artists photo. 
