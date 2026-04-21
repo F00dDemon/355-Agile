@@ -1,0 +1,30 @@
+AS [] I want to [] so that []
+Given, when, then
+
+As a visitor I want to be able to visit a landing page that will give a great idea as to what wavelength records does so that I know who they are and what they offer.
+
+    Given a user enters the url for the website,
+    When they enter the website, they should be directed to the landing page.
+    Then they should be able to see a variety of information and announcements related to the website.
+
+    Given a user wants to learn more about wavelength records,
+    When they navigate to a header on the website, there should be an about button.
+    Then they should be directed to an about me page that describes wavelength.
+
+    Given a mobile user visits the landing page,
+    When they are shown the landing page,
+    Then elements such as the header, footer and main content are displayed proportionally and they should be able to comfortably navigate the website.
+
+As a visitor I want to be able to find a specific artist and I should be able to find out more information on them if I want to know more, so that I may be able to learn about them.
+
+    Given a mobile user navigates to the artists catalog,
+    When they are trying to find a specific artist,
+    Then they should be able to see all the artists on a single page that properly displays the catalog.
+
+    Given a visitor navigates to the artist/catalog 
+    When they are trying to find a specific artist 
+    Then they should be able to view the artist on a single page that will automatically view that artist.
+
+    Given a visitor navigates to the artist/catalog,
+    When they see the page,
+    then the layout should be in a format that is both aesthetically pleasing, while information dense.
