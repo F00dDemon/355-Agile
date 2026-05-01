@@ -1,9 +1,17 @@
-import data from './data.json'
-import './App.css'
+import data from "./data.json";
+import Header from "./components/Header";
+import About from "./components/About";
+import ArtistList from "./components/ArtistList";
+import "./App.css"
 
 function App() {
-
-  return console.log(data);
+  return (
+    <div className="main">
+      <Header />
+      <About />
+      <ArtistList artists={data.artists} />
+    </div>
+  )
 }
 
-export default App
+export default App;

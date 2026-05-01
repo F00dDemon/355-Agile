@@ -1,0 +1,22 @@
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: #0f172a;
+    color: white;
+    border: solid #7fa8d1 3px;
+
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header-info {
+    margin-top: 8px;
+    font-size: 1.1rem;
+}
+
+.header-info p {
+    margin: 2px 0;
+}
