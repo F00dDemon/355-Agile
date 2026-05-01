@@ -1,7 +1,7 @@
 AS [] I want to [] so that []
 Given, when, then
 
-As a visitor I want to be able to view a landing page that introduces Wavelength Records so that I can understand their history as a Seattle based indie label.
+As a visitor to the site, I want to see information about Wavelength Records so that I can understand what the label is, where it’s based, and what it represents.
 
     Given a user enters the url for the website,
     When the page loads, 
@@ -13,7 +13,7 @@ As a visitor I want to be able to view a landing page that introduces Wavelength
 
     Given a mobile user visits the landing page,
     When the screen width is 480px or less,
-    Then the header, footer and main content must stack vertically without requiring horizontal scrolling. 
+    Then the header and main content must stack vertically without requiring horizontal scrolling. 
 
 As a visitor I want to be able to find a specific artist and view their details so that I can see their genre and discography. 
 
@@ -27,4 +27,4 @@ As a visitor I want to be able to find a specific artist and view their details 
 
     Given a visitor navigates to the artist/catalog,
     When they view the artists,
-    Then the layout must display the artists name and genre clearly over or under the artists photo. 
+    Then the artist cards should stack in a single column. 
