@@ -28,3 +28,4 @@ As a visitor I want to be able to find a specific artist and view their details 
     Given a visitor navigates to the artist/catalog,
     When they view the artists,
     Then the layout must display the artists name and genre clearly over or under the artists photo. 
+    

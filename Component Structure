@@ -1,0 +1,19 @@
+data.json
+
+App
+ -> Landing
+    C-> Header
+     -> Landing Info + Checkout Pages
+    C-> Footer 
+ -> Catalog 
+    C-> Header
+     -> Card View 
+        C-> Cards
+    C-> Footer 
+ -> About 
+    C-> Header
+     -> Info Dump
+    C-> Footer
+
+
+C-> = React Component
