@@ -1,0 +1,12 @@
+.artist-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 20px;
+}
+
+@media (max-width: 480px) {
+    .artist-list {
+        grid-template-columns: 1fr;
+    }
+}

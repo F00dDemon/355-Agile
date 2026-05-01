@@ -1,10 +1,16 @@
-import data from './data.json'
-import './App.css'
+import data from "./data.json";
+import Header from "./components/Header";
+import About from "./components/About";
+import ArtistList from "./components/ArtistList";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return;
+  return (
+    <>
+      <Header />
+      <About />
+      <ArtistList artists={data.artists} />
+    </>
+  )
 }
 
-export default App
+export default App;
