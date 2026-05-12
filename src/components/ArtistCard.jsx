@@ -2,8 +2,9 @@ import "./ArtistCard.css"
 
 function ArtistCard({ artist }) {
     return (
+        <h3>{artist.name}</h3>
         <div className="artist-card">
-            <h3>{artist.name}</h3>
+            
             <p>{artist.genre}</p>
             <p>{artist.bio}</p>
 
